@@ -1,0 +1,150 @@
+@import'_variables';
+
+
+body {
+    background-color: $dp-blue;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .title {
+        background-image: url('/images/DPLogoB.jpg');
+        width: 90%;
+        height: 25vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .get-started {
+        margin-left: auto;
+        margin-right: auto;
+            h1 {
+                text-align: center;
+                font-size: 2rem;
+            }
+            li {
+                padding: 1rem;
+            }
+    }
+    .knowledge {
+        margin-left: auto;
+        margin-right: auto;
+            h2 {
+                text-align: center;
+                font-size: 2rem;
+            }
+            li {
+                padding: 1rem;
+            }
+    }
+    .icons {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+            .col-sm {
+                padding-bottom: 1rem;
+                    h3 {
+                        font-size: 1.25rem;
+                    }
+            }
+    }
+    .col-sm-8 {
+        margin-left: auto;
+        margin-right: auto;
+        label {
+            padding: 0.5rem;
+        }
+        input {
+            padding: 0.5rem;
+        }
+    }
+}
+.title {
+    background-image: url('/images/DPLogoB.jpg');
+    width: 90%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.get-started {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+        h1{
+            text-align: center;
+        }
+        li {
+            padding: 1rem;
+        }
+}
+.knowledge {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+        h2 {
+            text-align: center;
+        }
+        li {
+            padding: 1rem;
+        }
+}
+.icons {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(rgba(33, 54, 81, 0.9), rgba(33, 54, 81, 0.9)), url('/images/football.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        .col-sm {
+            padding: 1rem;
+        }
+}
+.how-to-play-container {
+    background: linear-gradient(rgba(33, 54, 81, 0.9), rgba(33, 54, 81, 0.9)), url('/images/ballpark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .how-to-play {
+        padding: 2rem;
+            h2 {
+                text-align: center;
+            }
+            li {
+                padding: 0.75rem;
+            }
+    }
+    .how-to-win {
+        padding: 2rem;
+            h2 {
+                text-align: center;
+            }
+            li {
+                padding: 0.75rem;
+            }
+    }
+}
+.col-sm-8 {
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+        padding: 1rem;
+        text-align: center;
+    }
+    label {
+        padding: 0.5rem;
+    }
+    input {
+        padding: 0.5rem;
+    }
+}
